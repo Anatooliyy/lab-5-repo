@@ -91,7 +91,7 @@ class FlowerShop:
         else:
             print(f'{name} is not available in the shop.')
 
-    def top_flowers(self):
+    def get_top_three_most_expensive_flowers(self):
         """
         Outputs the top 3 flowers by price.
         """
@@ -137,7 +137,7 @@ store.add_flower('romashka', romashka, 1)
 store.add_flower('rose', rose, 7)
 store.add_flower('tulpan', tulpan, 1)
 print(store.get_flowers())
-store.top_flowers()
+print(store.get_top_three_most_expensive_flowers())
 
 bouquet.add_flower('romashka', romashka, 1)
 bouquet.add_flower('rose', rose, 7)
